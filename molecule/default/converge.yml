@@ -2,6 +2,6 @@
 - name: Converge
   hosts: all
   tasks:
-    - name: "Include kibana-role"
+    - name: "Include roles"
       include_role:
-        name: "kibana-role"
+        name: "java"
